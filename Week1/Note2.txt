@@ -1,0 +1,30 @@
+Introduction to Node.js
+
+Node.js: A JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser, 
+enabling the creation of server-side applications. 
+
+Web Page:
+ A web page is typically written in HTML (Hypertext Markup Language) and can contain text, images, multimedia, and links to other web pages, 
+ viewed in a web browser,
+ primarily designed to display information in a visually meaningful way.
+
+Web Application: A software program that requires an internet connection to function, 
+utilizing data stored on remote servers (e.g., Facebook, Gmail).
+
+Static Web Page: 
+An HTML document with fixed content that does not change unless manually updated. 
+It is served directly by the web server to the browser upon request.
+
+Dynamic Web Page: 
+A page that generates content dynamically based on user input or other variables, 
+often involving server-side scripts that modify the HTML before sending it to the browser.
+
+HTTP (Hypertext Transfer Protocol): The protocol used for transferring web pages on the internet, 
+facilitating communication between a client (browser) and a server. 
+
+Event Loop: 
+A core component of Node.js that allows it to handle multiple concurrent operations without blocking,
+enabling efficient processing of requests.
+
+NPM (Node Package Manager): 
+A package manager for JavaScript that helps developers manage and share open-source packages for Node.js applications.

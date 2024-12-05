@@ -1,0 +1,58 @@
+
+ Introduction to Terminal, Bash Script, and Git
+
+1. Introduction
+-   Terminal  : A command-line interface for interacting with the OS via text commands.
+2. Bash Script Basics
+-   GUI  : Graphical User Interface; uses icons and menus for commands.
+-   Shell  : Software that interprets commands typed into the terminal.
+-   Why Learn Bash?  
+  - Control all OS tasks not possible via GUI.
+  - Utilize powerful features like piping (e.g., `cd classFolder | ls -lt | head`).
+-   Bash  : Bourne Again SHell; a widely used command-line interpreter.
+      install git or Cygwin
+      git Bash:https://git-scm.com/download/win
+    Using gitbash on vs code 
+     open the terminal
+     open command pallet
+     write select default profile
+     select bash
+
+3. Essential Bash Commands
+- pwd  : Prints the current directory path.
+-   cd  : Changes the current directory.
+-   ls  : Lists contents of the current directory.
+-   mkdir  : Creates a new directory.
+-   touch  : Creates a new file.
+-   echo  : Prints or creates files with specified text.
+-   mv  : Moves or renames files/directories.
+-   rm/rmdir  : Removes files/directories (with `-r` for non-empty).
+-   grep  : Searches for strings in files.
+-   chmod  : Changes file permissions.
+
+
+ls -l
+
+
+4. Introduction to Git
+        Git is a Version Control System
+-   Version Control  : Tracks changes in files, enabling collaboration.
+-   .git Directory  : Stores project information (history, branches).
+-   Git can be accessed via terminal commands or desktop app
+-   Creating a Git Repository  : Use `git init` or `git clone`.
+
+5. Git Workflow
+-   Cloning  : Copying a remote repository.
+-   Committing  : Saving changes locally (`git commit -m "message"`).
+-   Pulling  : Updating local repo with changes from central repo.
+-   Pushing  : Uploading local changes to the remote repo.
+
+6. Forking and Pull Requests
+-   Forking  : Copying a repo to make independent changes.
+-   Pull Request  : Request to merge changes back into the original repo.
+
+7. Conclusion
+- Mastering Bash and Git enhances development efficiency and collaboration.
+
+
+
